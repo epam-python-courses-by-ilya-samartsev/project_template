@@ -11,5 +11,5 @@
 
 Execute command where you want to start a project.
 ```
-cookiecutter https://github.com/Cjkjvfnby/project_template
+cookiecutter https://github.com/epam-python-courses-by-ilya-samartsev/project_template
 ```
