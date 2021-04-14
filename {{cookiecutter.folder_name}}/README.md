@@ -22,10 +22,6 @@ pip install -r requirements-dev.txt
   ```shell
   pytest
   ```
-- Run tests with coverage
-```shell
-  pytest --cov={{cookiecutter.module_name}} --cov-report html
-  ```
 
 ## Pre commit hooks with  pre-commit
 - install

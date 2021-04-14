@@ -10,6 +10,6 @@
 [Install](https://cookiecutter.readthedocs.io/en/1.7.2/installation.html) Python and Cookiecutter.
 
 Execute command where you want to start a project.
-```
+```shell
 cookiecutter https://github.com/epam-python-courses-by-ilya-samartsev/project_template
 ```

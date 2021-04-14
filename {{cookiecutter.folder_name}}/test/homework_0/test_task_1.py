@@ -1,4 +1,4 @@
-from homework_0.task1 import some_function
+from homework_0.task_1 import some_function
 
 
 def test_some_function():
