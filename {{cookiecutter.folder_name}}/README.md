@@ -7,23 +7,27 @@
 pip install -r requirements-dev.txt
 ```
 
-## Formatting
-```shell
-black .
-isort .
-```
+## Useful commands
 
-## Linting
+- Formatting
+  ```shell
+  black .
+  isort .
+  ```
+- Linting
+  ```shell
+  flake8
+  ```
+- Run test
+  ```shell
+  pytest
+  ```
+- Run tests with coverage
 ```shell
-flake8
-```
+  pytest --cov={{cookiecutter.module_name}} --cov-report html
+  ```
 
-## Run test
-```shell
-pytest --cov={{cookiecutter.module_name}} --cov-report html
-```
-
-## Install pre-commit
+## Pre commit hooks with  pre-commit
 - install
   ```shell
   pip install pre-commit
